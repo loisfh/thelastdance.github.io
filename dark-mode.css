@@ -1,0 +1,32 @@
+:root {
+  --bg-color: white;
+  --text-color: black;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: white;
+}
+
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+
+button {
+  border: none;       
+  background: none;   
+  padding: 0;         
+  cursor: pointer;  
+  padding: left 40%;
+}
+button i {
+  font-size: 24px;    
+  color: #333;        
+}
+
+button:hover i {
+  color: #000000;     
+}
